@@ -1,10 +1,12 @@
 import './App.css';
-import Nav from './component/Nav/Nav';
+import Header from './component/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <Nav></Nav>
+      <Header></Header>
+      <h1 className='text-6xl'>Welcome to my pricing club</h1>
     </div>
   );
 }
